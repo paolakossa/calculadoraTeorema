@@ -25,6 +25,8 @@ input{
 	border: none;
 	text-align: center;
 	color: #355764;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 
@@ -76,4 +78,62 @@ input::placeholder{
 	top: -320px;
 	border-radius: 5px;
 	background-color: #FFFFFF;
+	
+	
 }
+
+.texto{
+	text-align: center;
+	position: relative;
+	top:12px;
+	font-weight: 600;
+	color: #355764;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.aInput{
+		left: 580px;
+		
+	
+	}
+	
+	.bInput{
+		left: 370px;
+		
+	}
+	
+	.botao{
+		left: 300px;
+	}
+	
+
+	.resultado{
+		left: 280px;	
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.aInput{
+		left: 330px;
+		top: -300px;
+		
+	
+	}
+	
+	.bInput{
+		left:170px;
+
+
+	}
+	
+	.botao{
+		left: 110px;
+	}
+	
+
+	.resultado{
+		left: 90px;	
+	}
+}
+	
