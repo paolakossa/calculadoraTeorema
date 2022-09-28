@@ -12,3 +12,4 @@ function calcularHipotenusa () {
 }; 
 
 botao.addEventListener('click', calcularHipotenusa); 
+
