@@ -16,12 +16,12 @@ botao.addEventListener('click', calcularHipotenusa);
 (function() {
 
   setTimeout(function(){
-    const modal = document.getElementById("meuModal");
+    const modal = document.querySelector("#meuModal");
     modal.style.display = "block";
   }, 1000); 
 })();
 
 function fecharModel() {
-  const modal = document.getElementById("meuModal");
+  const modal = document.querySelector("#meuModal");
   modal.style.display = "none";
 }
