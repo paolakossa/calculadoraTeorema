@@ -444,7 +444,46 @@ div:hover.resultado span {
 	color: #355764;
 
 }
+@media only screen and (max-width: 2560px){
+	.triangulo{
+	margin: 8rem auto auto auto;
 
+}
+
+.titulo{
+	
+	margin-top: 4rem;
+  	
+}
+
+.aInput{
+	left: 72rem;
+
+}
+
+
+.bInput{
+	left: 62rem;	
+}
+
+div:hover.inputB span {
+  left:44%;
+
+}
+
+.botao{
+	
+	left: 56rem;
+	
+}
+
+.resultado{
+	
+	left: 52rem;
+		
+}
+
+}
 @media only screen and (max-width: 1440px){
 	.triangulo{
 	margin: 8rem auto auto auto;
