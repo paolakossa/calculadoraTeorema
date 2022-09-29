@@ -13,3 +13,15 @@ function calcularHipotenusa () {
 
 botao.addEventListener('click', calcularHipotenusa); 
 
+(function() {
+
+  setTimeout(function(){
+    const modal = document.getElementById("meuModal");
+    modal.style.display = "block";
+  }, 1000); 
+})();
+
+function fecharModel() {
+  const modal = document.getElementById("meuModal");
+  modal.style.display = "none";
+}
